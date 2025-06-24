@@ -1,0 +1,13 @@
+[package]
+name = "ahkc-model"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+strum.features = ["derive"]
+strum.workspace = true
+
+[lints]
+workspace = true

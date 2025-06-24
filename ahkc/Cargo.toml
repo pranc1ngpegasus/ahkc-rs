@@ -1,0 +1,16 @@
+[package]
+name = "ahkc"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+clap.workspace = true
+clap.features = ["derive"]
+anyhow.workspace = true
+quick-xml.workspace = true
+ahkc-model.workspace = true
+chrono.workspace = true
+
+[lints]
+workspace = true

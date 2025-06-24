@@ -1,8 +1,14 @@
 [workspace]
-members = []
+members = ["ahkc", "ahkc-model"]
 resolver = "2"
 
 [workspace.dependencies]
+anyhow = "1.0.98"
+clap = "4.5.40"
+strum = "0.27.1"
+quick-xml = "0.37"
+chrono = "0.4"
+ahkc-model.path = "ahkc-model"
 
 [workspace.package]
 authors = ["pranc1ngpegasus"]
