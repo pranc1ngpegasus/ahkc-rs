@@ -6,7 +6,7 @@ resolver = "2"
 anyhow = "1.0.98"
 clap = "4.5.40"
 strum = "0.27.1"
-quick-xml = "0.37"
+quick-xml = "0.38"
 chrono = "0.4"
 ahkc-model.path = "ahkc-model"
 
